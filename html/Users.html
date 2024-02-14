@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link href="../Content/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="../css/Users.css" rel="stylesheet" />
+    <title></title>
+</head>
+<body>
+    
+    <div class="container mb-3">
+        <!-- section catrgories for fillteration -->
+        <h2>Categories</h2>
+        <div class="row">
+            <div class="col-md-12">
+                <button type="button" class="btn btn-primary col-md-2" onclick="fillterByCategory('category-1')">Category 1</button>
+                <button type="button" class="btn btn-primary col-md-2" onclick="fillterByCategory('category-2')">Category 2</button>
+                <button type="button" class="btn btn-primary col-md-2" onclick="fillterByCategory('category-3')">Category 3</button>
+                <button type="button" class="btn btn-primary col-md-2" onclick="fillterByCategory('')">All</button>
+
+            </div>
+        </div>
+        <br />
+        <!-- end section catrgories for fillteration -->
+        <!-- section Users from API -->
+        <h2>Users</h2>
+        <div class="row" id="cards">
+            <!-- Code in JS -->
+        </div>
+        <!-- end section of Users -->
+    </div>
+
+    <script src="../js/UsersCtrl.js"></script>
+</body>
+</html>
