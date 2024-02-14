@@ -21,6 +21,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Test Job", ".", "{5BC624DE-
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "60267"
+		SlnRelativePath = "..\Test Job\"
 	EndProjectSection
 EndProject
 Global
